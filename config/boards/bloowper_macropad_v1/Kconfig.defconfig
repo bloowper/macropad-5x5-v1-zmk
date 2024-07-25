@@ -1,0 +1,6 @@
+if SHIELD_MACROPAD_V1
+
+config ZMK_KEYBOARD_NAME
+    default "my macropad v1"
+
+endif
