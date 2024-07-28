@@ -49,7 +49,7 @@
                 &macro_release &kp LALT
             >;
         };
-        window_left_side: window_right_side {
+        window_right_side: window_right_side {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <
