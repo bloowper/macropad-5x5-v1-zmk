@@ -16,6 +16,24 @@
             bindings =  <&macro_tap &kp LC(N2)>,
                         <&macro_tap &kp LC(N7)>;
         };
+        display3: display3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =  <&macro_tap &kp LC(N3)>,
+                        <&macro_tap &kp LC(N8)>;
+        };
+        display4: display4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =  <&macro_tap &kp LC(N4)>,
+                        <&macro_tap &kp LC(N9)>;
+        };
+        display5: display5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =  <&macro_tap &kp LC(N5)>,
+                        <&macro_tap &kp LC(N0)>;
+        };
     };
     
     keymap {
