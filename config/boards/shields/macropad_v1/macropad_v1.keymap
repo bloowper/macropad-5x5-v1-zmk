@@ -7,12 +7,14 @@
         display1: display1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTL>,
-                       <&macro_tap &kp 1>,
-                       <&macro_release &kp LCTL>,
-                       <&macro_press &kp LCTL>,
-                       <&macro_tap &kp 6>,
-                       <&macro_release &kp LCTL>;
+            bindings =  <&macro_tap &kp LC(N1)>,
+                        <&macro_tap &kp LC(N6)>;
+        };
+        display2: display2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =  <&macro_tap &kp LC(N2)>,
+                        <&macro_tap &kp LC(N7)>;
         };
     };
     
@@ -25,7 +27,7 @@
                 &kp F &kp G &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N &kp O
                 &kp P &kp Q &kp R &kp S &kp T
-                &display1 &kp V &kp W &kp X &kp Y
+                &display1 &display2 &kp W &kp X &kp Y
             >;
         };
         
