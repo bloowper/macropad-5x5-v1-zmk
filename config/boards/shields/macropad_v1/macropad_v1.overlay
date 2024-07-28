@@ -37,18 +37,5 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)
         >;
     };
-
-   macros {
-        display1: display1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTL>,
-                       <&macro_tap &kp 1>,
-                       <&macro_release &kp LCTL>,
-                       <&macro_press &kp LCTL>,
-                       <&macro_tap &kp 6>,
-                       <&macro_release &kp LCTL>;
-        };
-    };
     
 };
