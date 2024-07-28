@@ -34,6 +34,21 @@
             bindings =  <&macro_tap &kp LC(N5)>,
                         <&macro_tap &kp LC(N0)>;
         };
+        window_left_bottom: window_left_bottom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                &macro_press &kp LSHFT
+                &macro_press &kp LCTRL
+                &macro_press &kp LCMD  // Command key for Mac (use LWIN for Windows)
+                &macro_press &kp LALT
+                &macro_tap &kp KP_N2
+                &macro_release &kp LSHFT
+                &macro_release &kp LCTRL  // Command key for Mac (use LWIN for Windows)
+                &macro_release &kp LCMD
+                &macro_release &kp LALT
+            >;
+        };
     };
     
     keymap {
@@ -44,7 +59,7 @@
                 &kp A &kp B &kp C &kp D &kp E
                 &kp F &kp G &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N &kp O
-                &kp P &kp Q &kp R &kp S &kp T
+                &kp P &kp Q &kp R &window_left_bottom &kp T
                 &display1 &display2 &display3 &display4 &display5
             >;
         };
