@@ -11,7 +11,7 @@
                 &kp A &kp A &kp A &kp A &kp A
                 &kp A &kp A &kp A &kp A &kp A
                 &kp A &kp A &kp A &kp A &kp A
-                &macro display1 &kp A &kp A &kp A &kp A
+                <&display1> &kp A &kp A &kp A &kp A
             >;
         };
         
