@@ -45,7 +45,7 @@
                 &kp F &kp G &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N &kp O
                 &kp P &kp Q &kp R &kp S &kp T
-                &display1 &display2 &kp W &kp X &kp Y
+                &display1 &display2 &display3 &display4 &display5
             >;
         };
         
