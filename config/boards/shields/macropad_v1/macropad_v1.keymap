@@ -2,6 +2,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+
+    macros {
+        display1: display1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTL>,
+                       <&macro_tap &kp 1>,
+                       <&macro_release &kp LCTL>,
+                       <&macro_press &kp LCTL>,
+                       <&macro_tap &kp 6>,
+                       <&macro_release &kp LCTL>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -16,4 +30,5 @@
         };
         
     };
+    
 };
