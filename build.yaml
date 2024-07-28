@@ -19,4 +19,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: macropad_v1
+    shield: SHIELD_MACROPAD_V1
