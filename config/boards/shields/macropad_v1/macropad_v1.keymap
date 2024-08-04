@@ -11,7 +11,6 @@
 
 
 / {
-
     macros {
         display1: display1 {
             compatible = "zmk,behavior-macro";
@@ -170,8 +169,8 @@
         l4 {
             bindings = <
                 &trans &trans &trans &trans &trans
-                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &none
-                &bt BT_CLR 0 &bt BT_CLR 1 &bt BT_CLR 2 &none &none
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2
+                &bt BT_CLR 0 &bt BT_CLR 1 &bt BT_CLR 2
             >;   
         };
     };
