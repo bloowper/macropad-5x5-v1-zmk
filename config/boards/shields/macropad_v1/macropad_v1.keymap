@@ -140,19 +140,19 @@
             compatible = "zmk,behavior-hold-tap";
             label = "BT Profile 0 - Tap: Select, Hold: Clear";
             #binding-cells = <2>;
-            bindings = <&bt BT_SEL 0>, <&bt BT_CLR 0>;
+            bindings = <&bt BT_CLR 0>, <&bt BT_SEL 0>;
         };
         bt_sel_clear_1: bt_sel_clear_1 {
             compatible = "zmk,behavior-hold-tap";
             label = "BT Profile 1 - Tap: Select, Hold: Clear";
             #binding-cells = <2>;
-            bindings = <&bt BT_SEL 1>, <&bt BT_CLR 1>;
+            bindings = <&bt BT_CLR 1>, <&bt BT_SEL 1>;
         };
         bt_sel_clear_2: bt_sel_clear_2 {
             compatible = "zmk,behavior-hold-tap";
             label = "BT Profile 2 - Tap: Select, Hold: Clear";
             #binding-cells = <2>;
-            bindings = <&bt BT_SEL 2>, <&bt BT_CLR 2>;
+            bindings = <&bt BT_CLR 2>, <&bt BT_SEL 2>;
         };
     };
 
