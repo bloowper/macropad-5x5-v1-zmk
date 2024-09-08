@@ -10,16 +10,6 @@
 
 
 / {
-    behaviors {
-        btpress: bt_press_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
 
     macros {
         display1: display1 {
@@ -179,7 +169,6 @@
         l4 {
             bindings = <
                 &trans &trans &trans &trans &trans
-                &btpress BT_SEL 0 BT_CLR 0 &btpress BT_SEL 1 BT_CLR 2
             >;    
         };
 
