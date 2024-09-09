@@ -180,6 +180,7 @@
         l4 {
             bindings = <
                 &trans &trans &trans &trans &trans
+                &lpm BT_SEL 0 BT_CLR 0 &lpm BT_SEL 1 BT_CLR 1
             >;    
         };
 
