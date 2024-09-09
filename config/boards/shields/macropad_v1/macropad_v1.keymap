@@ -18,6 +18,7 @@
             tapping-term-ms = <500>;    // Hold action triggered after 500ms
             quick-tap-ms = <0>;
             flavor = "balanced";        // Balanced flavor (no preference between tap/hold)
+            bindings = <&kp>, <&kp>;    // Add this placeholder binding
         };
     };
 
