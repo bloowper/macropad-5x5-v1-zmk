@@ -144,7 +144,7 @@
         l0 {
             bindings = <
                 &to L0 &mo L1 &mo L2 &mo L3 &mo L4
-                &kp F &kp G &kp H &window_left_top_side &window_right_top_side
+                &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT &window_left_top_side &window_right_top_side
                 &kp K &kp LC(F16) &kp LC(UP) &window_left_bottom_side &window_right_bottom_side
                 &kp LS(LC(LA(LG(F18)))) &kp LS(LC(LA(LG(F16)))) &kp LS(LC(LA(LG(F20)))) &window_left_side &window_right_side
                 &display1 &display2 &display3 &display4 &display5
