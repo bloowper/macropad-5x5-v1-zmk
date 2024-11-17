@@ -145,7 +145,7 @@
             bindings = <
                 &to L0 &mo L1 &mo L2 &mo L3 &mo L4
                 &kp F &kp G &kp H &window_left_top_side &window_right_top_side
-                &kp K &kp L &kp M &window_left_bottom_side &window_right_bottom_side
+                &kp K &kp LC(F16) &kp LC(UP) &window_left_bottom_side &window_right_bottom_side
                 &kp P &kp Q &kp R &window_left_side &window_right_side
                 &display1 &display2 &display3 &display4 &display5
             >;
